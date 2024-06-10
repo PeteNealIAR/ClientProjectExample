@@ -7,7 +7,10 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-    "ghcr.io/petenealiar/ht24bxtoolsdevcontainer/bxtools:latest": {}
+    "ghcr.io/petenealiar/ht24bxtoolsdevcontainer/bxtools:latest": {
+      "Architecture": "Arm",
+      "BXVesion": "9.60.1"
+	}
 }
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
