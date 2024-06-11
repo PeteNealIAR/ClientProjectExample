@@ -5,6 +5,7 @@
         "ghcr.io/petenealiar/ht24bxtoolsdevcontainer/bxtools:latest": {
             "Architecture": "Arm",
             "BXVersion": "9.60.1"
+            "licenseServer": "SEUPP-S-LMS2LIC.ad.iar.com"
         }
     }
 }
