@@ -14,4 +14,4 @@ ddf="/opt/iarsystems/$version/arm/config/debugger/ST/STM32F429II.ddf"
 cpu="Cortex-M4"
 device="STM32F429II"
 
-$CSpyBat $armProc $armSIM2 "tp.out" --plugin=$plugin --device_macro=$device_macro --backend --endian=little --cpu=$cpu --fpu=VFPv4_SP -p $ddf --semihosting --device=$device --multicore_nr_of_cores=1
+$CSpyBat $armProc $armSIM2 "Debug/Exe/tp.out" --plugin=$plugin --device_macro=$device_macro --backend --endian=little --cpu=$cpu --fpu=VFPv4_SP -p $ddf --semihosting --device=$device --multicore_nr_of_cores=1
